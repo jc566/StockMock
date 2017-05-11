@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+
+
+<?php
+
+session_start();
+
+echo "Welcome, " . $_SESSION['username'] . "!";
+
+?>
+<br><br>
+<form action="Navigation.php" method="POST">
+<!--<form action="Result_showstock.php" method="POST" >-->
+<!--<input type="text" name="Displaystk"><br><br>-->
+<h1>Display Stock</h1> 
+
+<input type="Submit" name = "Button" value="Display">
+
+<h1>Buy Stock</h1> 
+<!-- <action="confirm_buy.php" method="POST"> -->
+<!--<input type="text"  name="Buystk"><br>
+<input type="number" name="Buystk1"><br><br>-->
+<input type="submit" name= "Button" value="Buy">
+
+<h1>Sell Stock</h1> 
+<!--<action="sold.php" method="POST">-->
+<!--<input type="text" name="Sellstk"><br><br>-->
+<input type="submit" name= "Button" value="Sell">
+
+</form>
+</body>
+</html>

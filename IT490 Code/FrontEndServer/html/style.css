@@ -1,0 +1,194 @@
+body{
+	padding:0;
+	margin:0;
+	overflow-y:scroll;
+	font-family:Arial;
+	font-size:18px;
+	background-image: url("1.jpg");
+	background-image: absolut;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.btn{
+	display:inline-block;
+	padding:6px 12px;
+	margin-bottom:0;
+	font-size:14px;
+	font-weight:400;
+	line-height:1.42857143;
+	text-align:center;
+}
+.btn:hover {
+  	background-color: #0CABFF;
+}
+input[type=submit]{
+    	width: 10%;
+    	background-color: #168DE8;
+    	color: white;
+    	padding: 10px 2px;;
+    	margin: 8px 0;
+   	border: none;
+    	border-radius: 4px;
+    	cursor: pointer;
+}
+input[type=submit]:hover {
+    	background-color: #0CABFF;
+}
+
+label {
+	font-weight: bold;
+	display: block;
+	width: 150px;
+	float: left;
+}
+
+label1 {
+	color: MAROON;
+}
+H1 {
+	color: white;
+    	font-family: Georgia, "Times New Roman", Times, serif;
+    	font-size: 70px;
+    
+}
+h2 {
+	color: white;
+	font-family: cursive;
+	font-size: 200%;
+}
+h3{
+	color:#3c3c3c;
+	font-family: Georgia, "Times New Roman", Times, serif;
+  	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 3px solid rgba(0,0,0,0);
+  	text-align: center;
+}
+#form-div {
+	background-color:rgba(72,72,72,0.4);
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+  	margin-top:30px;
+	margin-left: -260px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+}
+.feedback-input {
+	color:#3c3c3c;
+	font-family: Helvetica, Arial, sans-serif;
+  	font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+  	border: 3px solid rgba(0,0,0,0);
+}
+.focused{
+	color:#30aed6;
+	border:#30aed6 solid 3px;
+}
+/* Icons ---------------------------------- */
+#username{
+	background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#password{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+#password:focus{
+	background-image: url(http://rexkirby.com/kirbyandson/images/comment.svg);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+
+}
+select {
+    background-image: url(http://rexkirby.com/kirbyandson/images/name.svg);
+	}
+textarea {
+    width: 100%;
+    height: auto;
+    line-height: 150%;
+    resize:vertical;
+}
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	background-color:white;
+}
+#button-blue{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: grey;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+#button-blue2{
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: grey;
+	color:white;
+	font-size:12px;
+	padding-top:11px;
+	padding-bottom:11px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:200;
+}
+#button-blue2:hover{
+	background-color: rgba(0,0,0,0);
+	color: #0493bd;
+}
+.submit:hover {
+	color: #3498db;
+}
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
